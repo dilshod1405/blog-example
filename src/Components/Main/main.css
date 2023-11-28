@@ -1,0 +1,39 @@
+.banner{
+    padding-top: 5%;
+    width: 1000px;
+    margin: auto;
+    min-height: 90vh;
+    transition: 0.5s ease;
+}
+
+hr{
+    color: blue;
+    width: 400px;
+    height: 5px;
+}
+
+.text{
+    color: blue;
+    font-size: 56px;
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 844px) {
+    .mainer{
+        width: 1000px;
+        
+    }
+
+    .banner{
+        width: 700px;
+        padding-bottom: 20%;
+    }
+
+    .text{
+        font-size: 64px;
+    }
+
+    p{
+        font-size: 32px;
+    }
+}
